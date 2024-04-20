@@ -9,7 +9,7 @@ on:
 jobs:
   get_stats:
     runs-on: ubuntu-latest
-    #permissions: write-all
+    permissions: read-all
     steps:
       - name: Get stats
         run: |
