@@ -19,5 +19,4 @@ jobs:
         run: |
           gh api \
             --header 'Accept: application/vnd.github+json' \
-            --method GET \
-            https://api.github.com/repos/$OWNER/$REPO/traffic/views
+            --method GET /repos/$OWNER/$REPO/traffic/views
