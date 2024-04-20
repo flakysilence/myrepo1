@@ -18,6 +18,6 @@ jobs:
           REPO: ${{ github.event.repository.name }}
         run: |
           gh api \
-            --header "Accept: application/vnd.github+json" \
+            --header 'Accept: application/vnd.github+json' \
             --method GET \
             https://api.github.com/repos/$OWNER/$REPO/traffic/views
