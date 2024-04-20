@@ -1,0 +1,17 @@
+# GitHub Actions workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  view_issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+        run: |
+          gh api https://api.github.com/repos/$OWNER/$REPO/issues
