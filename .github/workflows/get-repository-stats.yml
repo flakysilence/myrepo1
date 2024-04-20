@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Get stats
         run: |
-          gh api --header 'Accept: application/vnd.github+json' --method GET /repos/$OWNER/$REPO/traffic/views
+          gh api --header 'Accept: application/vnd.github+json' https://api.github.com/repos/$OWNER/$REPO/traffic/views
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OWNER: ${{ github.repository_owner }}
