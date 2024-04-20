@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/flakysilence/myrepo1/actions,12,1
+/flakysilence/myrepo1/tree/main/.github/workflows,12,1
+/flakysilence/myrepo1,9,1
+/flakysilence/myrepo1/actions/workflows/get-repository-clones.yml,7,1
+/flakysilence/myrepo1/blob/main/.github/workflows/get-repository-clones.yml,6,1
+/flakysilence/myrepo1/actions/workflows/get-repository-stats.yml,4,1
+/flakysilence/myrepo1/blob/main/.github/workflows/get-repository-stats.yml,4,1
+/flakysilence/myrepo1/actions/runs/8758915992/job/24040809563,3,1
+/flakysilence/myrepo1/actions/runs/8711278228,2,1
+/flakysilence/myrepo1/actions/runs/8711278228/job/23895013355,2,1
